@@ -24,7 +24,7 @@ body {
     color: black;
     margin: 0 auto;
     border-radius: 10px;
-    width: 900px;
+    width: 720px;
 }
 
 .section {
@@ -33,7 +33,7 @@ body {
     font-weight: 700;
     font-size: 25px;
     transition: background-color 0.3s ease;
-    width: 300px;
+    width: 260px;
     text-align: center;
     display: flex;
     align-items: center;
@@ -142,7 +142,6 @@ body {
     justify-content: space-between;
     margin-top: -10px;
     font-size: 14px;
-    gap-5px
 }
 
 .price {
@@ -174,3 +173,102 @@ body {
     font-size: 20px;
 }
 
+@media only screen and (max-width: 1246px){
+    .product-card {
+        width: 230px;
+        height: 470px;
+    }
+    .product-image {
+        width: 100%;
+        height: 65%;
+    }
+
+    .add-to-cart-btn {
+        width: 200px;
+    }
+
+    .second {
+        font-size: 12px;
+    }
+    
+    .price {
+        font-size: 12px;
+    }
+    
+    .discount {
+        font-size: 12px;
+    }
+}
+
+
+@media only screen and (max-width: 700px){
+    .header{
+        font-size: larger;
+    }
+    .container {
+        width: 600px;
+    }
+    .section {
+        width: 260px;    
+    }
+}
+
+@media only screen and (max-width: 580px){
+    .header{
+        font-size:15px;
+    }
+    .container {
+        width: 510px;
+    }
+    .section {
+        width: 170px;    
+    }
+}
+
+@media only screen and (max-width: 543px){
+    .header{
+        font-size:13px;
+    }
+    .container {
+        width: 390px;
+    }
+    .section {
+        width: 130px;    
+    }
+    .product-card {
+        width: 300px;
+        height: 550px;
+    }
+    .product-image {
+        width: 100%;
+        height:70%;
+    }
+
+    .add-to-cart-btn {
+        width: 270px;
+    }
+    .second {
+        font-size: 17px;
+    }
+    
+    .price {
+        font-size: 17px;
+    }
+    
+    .discount {
+        font-size: 17px;
+    }
+}
+
+@media only screen and (max-width: 390px){
+    .header{
+        font-size:12px;
+    }
+    .container {
+        width: 330px;
+    }
+    .section {
+        width: 110px; 
+        font-size: large;   
+    }
+}
