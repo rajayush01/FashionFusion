@@ -45,5 +45,4 @@ function displayProducts(category) {
     .catch(error => console.error('Error fetching data:', error));
 }
 
-// Display products for the initially active section
 displayProducts(activeSection.dataset.text.toLowerCase());
