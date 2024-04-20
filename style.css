@@ -40,29 +40,22 @@ body {
     justify-content: center;
     border-radius: 5px;
     background-color: #f2f2f2;
-    /* Default background color */
     color: black;
-    /* Default text color */
 }
 
 .section .icon {
     margin-right: 5px;
     display: none;
-    /* Hide the icon by default */
 }
 
 .section.active,
-/* Apply these styles when section is active */
 .section:hover {
-    /* Apply these styles on hover */
     background-color: black;
     color: white;
 }
 
 .section.active .icon,
-/* Show the icon when section is active */
 .section:hover .icon {
-    /* Show the icon on hover */
     display: inline-block;
 }
 
@@ -87,7 +80,7 @@ body {
     position: absolute;
     top: 10px;
     left: 10px;
-    background-color: #d8d8d6; /* Example background color for the badge */
+    background-color: #d8d8d6;
     color: black;
     padding: 5px 10px;
     border-radius: 5px;
@@ -105,11 +98,8 @@ body {
 
 .first {
     display: flex;
-    /* Use flexbox */
     align-items: center;
-    /* Center items vertically */
    justify-content: space-between;
-    /* Distribute items horizontally */
 }
 
 .product-title {
@@ -136,9 +126,7 @@ body {
 
 .second {
     display: flex;
-    /* Use flexbox */
     align-items: center;
-    /* Center items vertically */
     justify-content: space-between;
     margin-top: -10px;
     font-size: 14px;
@@ -209,7 +197,8 @@ body {
         width: 600px;
     }
     .section {
-        width: 260px;    
+        width: 260px;
+        font-size: x-large;    
     }
 }
 
@@ -221,7 +210,8 @@ body {
         width: 510px;
     }
     .section {
-        width: 170px;    
+        width: 170px;  
+        font-size: larger;  
     }
 }
 
@@ -233,7 +223,8 @@ body {
         width: 390px;
     }
     .section {
-        width: 130px;    
+        width: 130px; 
+        font-size: larger;   
     }
     .product-card {
         width: 300px;
