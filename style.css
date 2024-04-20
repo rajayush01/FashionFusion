@@ -157,7 +157,7 @@ body {
     border-radius: 5px;
     cursor: pointer;
     margin-top: 10px;
-    width: 220px;
+    width: 235px;
     font-size: 20px;
 }
 
@@ -185,6 +185,9 @@ body {
     
     .discount {
         font-size: 12px;
+    }
+    .add-to-cart-btn{
+        width: 200px;
     }
 }
 
